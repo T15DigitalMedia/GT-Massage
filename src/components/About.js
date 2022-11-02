@@ -1,7 +1,8 @@
 import React from "react";
 import HeadShot from "../assets/images/headshot.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const About = () => {
   return (
@@ -11,7 +12,7 @@ const About = () => {
           <div className="col-lg-6">
             <div className="mt-3">
               <img
-                src={HeadShot}
+                src="https://via.placeholder.com/398"
                 alt=""
                 className="img-fluid mx-auto d-block img-thumbnail"
               />
@@ -25,43 +26,41 @@ const About = () => {
               <h4 className="mt-4">
                 Hello!{" "}
                 <span className="text-custom font-weight-bold">
-                  I'm James Tinker.
+                  I'm Gregory Tristani.
                 </span>
               </h4>
               <p className="text-muted mt-4">
-                An experienced and entrepreneurial Web Developer with key
-                accomplishments creating custom websites for early-stage
-                start-ups. Approaching all projects using Agile Methodology
-                ensuring compliance to project timelines, effective
-                communication with stakeholders, while managing product
-                requirements.
+                I am a Registered Massage Therapist, Certified Personal Trainer
+                &amp; Human Movement Specialist eager to work with clients
+                seeking relaxation, rehabilitation &amp; other benefits from
+                Massage Therapy.
               </p>
               <p className="text-muted mt-2">
-                Vast experience with Ruby on Rails and the languages associated:
-                HTML, CSS, Javascript, and a working knowledge of PostgreSQL.
+                My personal philosophy when it comes to Massage Therapy is to
+                revitalize your life. We begin through initial assessment to
+                determine limitations to gain a clarity of the issue. Through
+                manual therapy, we aim to address the source causing the
+                symptoms affecting your day to day so you may go from
+                rehabilitating to preventative mobility.
               </p>
               <p className="text-muted mt-2">
-                Keen in learning new languages and developmental practices;
-                currently learning ReactJS and experimenting with Docker.
+                I look forward to treating, please see below for additional
+                information and do not hesitate to get in touch!
               </p>
               <div>
                 <ul className="mb-0 about-social list-inline mt-4">
                   <li className="list-inline-item">
                     <a
-                      href="https://www.linkedin.com/in/james-tinker/"
+                      href="https://www.instagram.com/gregory.tristani.rmt"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <FontAwesomeIcon icon={faLinkedin} />
+                      <FontAwesomeIcon icon={faInstagram} />
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a
-                      href="https://github.com/JamTinker"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <FontAwesomeIcon icon={faGithub} />
+                    <a href="mailto:gregorytristanirmt@outlook.com ">
+                      <FontAwesomeIcon icon={faEnvelope} />
                     </a>
                   </li>
                 </ul>
