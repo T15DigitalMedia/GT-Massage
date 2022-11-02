@@ -2,19 +2,16 @@ import React from "react";
 import TextRotator from "../../components/textRotator/TextRotator";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import Skills from "../../components/skills/Skills";
-import Tools from "../../components/skills/Tools";
+import Service from "../../components/Service";
 import ContactForm from "../../components/contactForm/ContactForm";
-import Resume from "../../assets/pdfs/Resume.pdf";
 import About from "../../components/About";
-import Improvement from "../../components/Improvement";
+import Booking from "../../components/Booking";
 
 const Home = () => {
   return (
     <>
       <Header />
       <section className="section header-bg-img h-100vh" id="home">
-        <div className="bg-overlay"></div>
         <div className="header-table">
           <div className="header-table-center">
             <div className="container position-relative z-index">
@@ -26,23 +23,13 @@ const Home = () => {
                       I'm{" "}
                       <span className="simple-text-rotate font-weight-bold">
                         <TextRotator
-                          items={["James Tinker", "A Web Developer."]}
+                          items={[
+                            "Greg Tristani",
+                            "A Registered Massage Therapist",
+                          ]}
                         />
                       </span>
                     </h1>
-                    <p className="text-white mx-auto header-desc mt-4">
-                      I develop websites of all sizes, and I love doing it.
-                    </p>
-                    <div className="mt-4 pt-2">
-                      <a
-                        href={Resume}
-                        className="btn btn-outline-custom btn-round"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Download Resume
-                      </a>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -57,9 +44,8 @@ const Home = () => {
       </section>
 
       <About />
-      <Skills />
-      <Tools />
-      <Improvement />
+      <Service />
+      <Booking />
       <ContactForm />
       <Footer />
     </>
