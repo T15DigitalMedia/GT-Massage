@@ -18,17 +18,11 @@ const Home = () => {
               <div className="row justify-content-center">
                 <div className="col-lg-12">
                   <div className="text-center header-content mx-auto">
-                    <h4 className="text-white first-title mb-4">Welcome</h4>
                     <h1 className="header-name text-white text-capitalize mb-0">
-                      I'm{" "}
-                      <span className="simple-text-rotate font-weight-bold">
-                        <TextRotator
-                          items={[
-                            "Greg Tristani",
-                            "A Registered Massage Therapist",
-                          ]}
-                        />
-                      </span>
+                      Greg Tristani
+                    </h1>
+                    <h1 className="header-name text-white text-capitalize mb-0">
+                      Registered Massage Therapy
                     </h1>
                   </div>
                 </div>
