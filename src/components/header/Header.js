@@ -36,13 +36,13 @@ const Header = () => {
               </AnchorLink>
             </li>
             <li className="nav-item">
-              <AnchorLink className="nav-link" href="#booking">
-                Booking
+              <AnchorLink className="nav-link" href="#services">
+                Services
               </AnchorLink>
             </li>
             <li className="nav-item">
-              <AnchorLink className="nav-link" href="#schedule">
-                Schedule
+              <AnchorLink className="nav-link" href="#booking">
+                Booking
               </AnchorLink>
             </li>
             <li className="nav-item">
