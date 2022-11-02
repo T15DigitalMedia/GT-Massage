@@ -1,5 +1,4 @@
 import React from "react";
-import TextRotator from "../../components/textRotator/TextRotator";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import Service from "../../components/Service";
