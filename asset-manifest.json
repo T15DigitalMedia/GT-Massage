@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/GT-Massage/static/css/main.6da7b15a.chunk.css",
-    "main.js": "/GT-Massage/static/js/main.2d29d78c.chunk.js",
-    "main.js.map": "/GT-Massage/static/js/main.2d29d78c.chunk.js.map",
-    "runtime-main.js": "/GT-Massage/static/js/runtime-main.6919b6f9.js",
-    "runtime-main.js.map": "/GT-Massage/static/js/runtime-main.6919b6f9.js.map",
-    "static/js/2.0e7182aa.chunk.js": "/GT-Massage/static/js/2.0e7182aa.chunk.js",
-    "static/js/2.0e7182aa.chunk.js.map": "/GT-Massage/static/js/2.0e7182aa.chunk.js.map",
-    "static/js/3.e052e9c8.chunk.js": "/GT-Massage/static/js/3.e052e9c8.chunk.js",
-    "static/js/3.e052e9c8.chunk.js.map": "/GT-Massage/static/js/3.e052e9c8.chunk.js.map",
-    "index.html": "/GT-Massage/index.html",
-    "static/css/main.6da7b15a.chunk.css.map": "/GT-Massage/static/css/main.6da7b15a.chunk.css.map",
-    "static/js/2.0e7182aa.chunk.js.LICENSE.txt": "/GT-Massage/static/js/2.0e7182aa.chunk.js.LICENSE.txt",
-    "static/media/gt_logo.d8a234fa.png": "/GT-Massage/static/media/gt_logo.d8a234fa.png",
-    "static/media/headshot.071031a0.jpeg": "/GT-Massage/static/media/headshot.071031a0.jpeg"
+    "main.css": "/static/css/main.6da7b15a.chunk.css",
+    "main.js": "/static/js/main.2d29d78c.chunk.js",
+    "main.js.map": "/static/js/main.2d29d78c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6cf1d335.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6cf1d335.js.map",
+    "static/js/2.0e7182aa.chunk.js": "/static/js/2.0e7182aa.chunk.js",
+    "static/js/2.0e7182aa.chunk.js.map": "/static/js/2.0e7182aa.chunk.js.map",
+    "static/js/3.e052e9c8.chunk.js": "/static/js/3.e052e9c8.chunk.js",
+    "static/js/3.e052e9c8.chunk.js.map": "/static/js/3.e052e9c8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6da7b15a.chunk.css.map": "/static/css/main.6da7b15a.chunk.css.map",
+    "static/js/2.0e7182aa.chunk.js.LICENSE.txt": "/static/js/2.0e7182aa.chunk.js.LICENSE.txt",
+    "static/media/gt_logo.d8a234fa.png": "/static/media/gt_logo.d8a234fa.png",
+    "static/media/headshot.071031a0.jpeg": "/static/media/headshot.071031a0.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6919b6f9.js",
+    "static/js/runtime-main.6cf1d335.js",
     "static/js/2.0e7182aa.chunk.js",
     "static/css/main.6da7b15a.chunk.css",
     "static/js/main.2d29d78c.chunk.js"
